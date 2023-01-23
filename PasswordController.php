@@ -20,17 +20,7 @@ class FarmerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        // if(\auth()->user() == null){
-        //     return view('farmer.index');
-
-        // }else{
-        //     return "farmer page after logged in, code farmer/FarmerController";
-        // }
-        return view('farmer.index');
-    }
-
+ 
 
     public function changepassword()
     {
